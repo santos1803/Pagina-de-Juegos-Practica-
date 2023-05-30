@@ -1,0 +1,758 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    box-sizing: border-box;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 7%;
+
+
+}
+
+.nav__menu, .navMenu__palabras--list {
+    display: flex;
+}
+
+.nav__menu {
+    flex-flow: row nowrap;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+}
+
+.logo, .items {
+    padding-left: 95px;
+}
+
+.navMenu__palabras--list {
+    justify-items: stretch;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 1%;
+}
+
+
+
+.navMenu__palabras--list li:hover  {
+    background-color: white;
+    color: black;
+}
+.navMenu__palabras--lista:hover {
+    background-color: white;
+    color: black;
+}
+
+.jugares {
+    height: 2.8em;
+} 
+
+.jugares:hover a {
+    color: black;
+}
+
+
+
+.navMenu__palabras--list a {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+.navMenu__img {
+    flex-basis: 30%;
+}
+
+.navMenu__palabras {
+    flex-basis: 50%;
+}
+
+.navMenu__img--dos {
+    flex-basis: 30%;
+    padding-top: 0.3%;    
+}
+
+.jugar__ceros {   
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: .9%;
+    padding: 2%;
+    left: 6%;
+    background-color: white;
+    width: 84%;
+    height: 34em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    display: none;
+    border-radius: 2px 2px 15px 15px;
+    -moz-border-radius: 2px 2px 15px 15px;
+    -webkit-border-radius: 2px 2px 15px 15px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: -5px 11px 43px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 11px 43px -15px rgba(0,0,0,0.75);
+    box-shadow: -5px 11px 43px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 11px 43px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 11px 43px -15px rgba(0,0,0,0.75);
+    box-shadow: 6px 11px 43px -15px rgba(0,0,0,0.75);
+ 
+  
+
+}
+.exploras {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.ayuda__ceros {
+    box-sizing: border-box;
+    margin-top: -.7%;
+
+}
+
+.ayuda__ceros {
+    flex-wrap: nowrap;
+}
+
+
+.exploraCeros {
+    display: flex;
+    cursor: pointer;
+}
+
+.exploraOuts section, .exploraOut section {
+    margin-top: 7px;
+    
+}
+
+
+.jugares:hover .jugar__ceros {
+
+    display: flex;
+}
+
+.tienda:hover .jugar__ceros {
+    display: flex;
+}
+
+
+.jugar__ceros li {
+    list-style: none;
+    line-height: 2em;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.tienda__ceros li {
+    line-height: 2.4em;
+}
+
+.jugar__ceros li:hover {
+    font-weight: bold;
+}
+
+.jugar__uno {
+    padding-left: 2%;
+}
+
+
+h5 {
+    line-height: 3.5em;
+    font-size: .8em;
+}
+
+.jugar, .jugar__uno {
+    flex-basis: 20%;
+}
+
+
+.class {
+    width: 18em;
+
+    
+}
+
+.clas {
+    width: 18em;
+  
+}
+
+.tiendaDos {
+    display: flex;
+    gap: 30px;
+    margin-top: 1.5%;
+}
+
+.tiendaDos__m {
+    flex-basis: 30%;
+}
+
+.tiendaDos__m h2 {
+    font-size: 1.2em;
+}
+
+.tiendaDos__m p, .tiendaDos__m h3 {
+    margin-top: 8%;
+}
+
+.tiendaDos__m h3 {
+    font-size: 1.5em;
+    color: #d80388;
+} 
+
+.botones {
+ display: flex;
+ flex-basis: 80%;
+ justify-content: space-evenly;
+ position: relative;
+ bottom: 2em;
+
+}
+
+.botones--z {
+    position: relative;
+ bottom: 0.7em;
+}
+
+.todosJuegos--x, .suscribirseAhora--x {
+    width: 15em;
+    padding: 5%;
+    
+}
+
+.todosJuegos--x {
+    background-color: #d80388;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todosJuegosss {
+    width: 15em;
+    margin-left: 100%;
+    padding: 5%;
+    background-color: #d80388;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.suscribirseAhora--x {
+    margin-left: 100%;
+    background-color: rgb(11, 142, 248);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.suscribirseAhora--x:hover {
+    background-color: white;
+    color: rgb(11, 142, 248);
+    border: 1px solid rgb(11, 142, 248);;
+}
+
+.todosJuegos--x:hover {
+    background-color: white;
+    color: #d80388;
+    border: 1px solid #d80388;
+}
+
+.todosJuegosss:hover {
+    background-color: white;
+    color: #d80388;
+    border: 1px solid #d80388;
+}
+.exploras--list {
+    flex-basis: 20%;
+    height: 112%;
+    position: relative;
+    bottom: 1.9em;
+    left: 2.8em;
+    background-color:#f0f3f4;
+}
+
+.exploras--list .clas {
+    margin-top: 5%;
+}
+
+.exploras--list li {
+    line-height: 2.8em;
+    font-weight: bold;
+    color: #d80388;
+}
+
+.shr {
+    width: 55%;
+    margin-left: 1em;
+}
+
+.exploras--list h5, .exploras--list li {
+ margin-left: 8%;
+}
+
+.exploraCeros__b h4, .exploraCeros__b p {
+    width: 15em;
+    margin-left: 10px;
+}
+
+.exploraCeros__b h4 {
+    margin-top: 10px;
+    line-height: 1.5em;
+}
+
+.exploraCeros__b p {
+    font-size: 0.8em;
+}
+
+.todosJuegos--ll {
+ position: relative;
+ top: -8em;
+ width: 20em;
+}
+
+.ayuda__ceros h5 {
+    font-size: 0.6em;
+}
+
+.ayuda h5 {
+    margin-left: 50px;
+}
+
+.ayuda__ceros p {
+    color: rgb(64, 66, 67);
+    font-size: 0.9em;
+    margin-top: 20px;
+    line-height: 1.6em;
+}
+
+.ayuda, .ayuda__uno {
+    flex-basis: 20%;
+}
+
+.ayuda__dos {
+    flex-basis: 50%;
+}
+
+.boton__ayudas, .boton__ayudasss, .boton__ayudassss {
+    margin-top: 30px;
+    background-color: #d80388;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 50%;
+    padding: 2%;
+    cursor: pointer;
+
+}
+
+.jugares button:hover {
+    background-color: white;
+    color: #d80388;
+    font-weight: bolder;
+    border: 1px solid #d80388;
+}
+
+.boton__ayudas {
+    margin-left: 50px;
+}
+
+.boton__ayudasss {
+    position: relative;
+    top: 23px;
+    margin-left: 40px;
+}
+
+.boton__ayudassss {
+    position: relative;
+    top: 43px;
+    margin-left: 150px;
+}
+
+
+
+
+
+
+.masJuegos{
+    box-sizing: border-box;
+ background-color: #2a2b2f;
+ color: white;
+ width: 100%;
+ height: 130px;
+ padding-top: 90px;
+ padding-bottom: 70px;
+ padding-left: 100px;
+ 
+}
+.mario {
+    box-sizing: border-box; 
+    
+}
+.mario__contenedor {
+    box-sizing: border-box;
+    height: 41em;
+    padding-top: 2em;
+    padding-left: 6%;
+    padding-bottom: 0;
+}
+
+.marios {
+
+    background-image: url(./recursos/Mario.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    height: 550px;
+ 
+    
+}
+
+.flex__mario {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 25%;
+}
+
+
+.disponibleAhora {
+   
+    width: 20%;
+    height: 5%;
+    padding: 1.5%;
+    background-color: #e22026;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.disponibleAhora:hover {
+    background-color: white;
+    color: #e22026;
+    border: 2px solid #e22026;
+    transition: 0.5s;
+}
+
+.ordenar {
+    display: flex;
+    gap: 20px;
+}
+
+.ordenar__titulo{
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin-left: 6%;
+    flex-basis: 71%;
+    
+}
+
+.plataformas, .masNuevos {
+    flex-basis: 7%;
+    height: 2em;
+    margin-top: 1%;
+    color: #d80388;
+    font-weight: bold;
+    font-size: 0.9em;
+    border: none;
+    border-bottom: 1px solid  #d80388;
+    background-color: white;
+ 
+}
+
+.catalogo {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 98%;
+}
+
+.tarjeta__catalogo {
+    flex-basis: 15%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.imagen__catalogo{
+    width: 105%;
+    object-fit: cover;
+}
+
+.enlace__catalogo {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo__tarjeta {
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.imagenes__tarjeta {
+    margin-top: 15px;
+}
+
+.subtituloss {
+    font-size: 0.8em; 
+    color: rgb(159, 154, 154);
+    margin-top: 10px;
+}
+
+.masResultados{
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-left: 43%;
+    padding: 1%;
+    width: 15em;
+    background-color: #d80388;
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.masResultados:hover{
+    background-color: white;
+    color: #d80388;
+    border: 1px solid #d80388;
+    transition: 0.5s;
+}
+
+.juegosDestacado {
+    box-sizing: border-box;
+    background-color: #f0f3f4;
+    width: 100%;
+    height: 3em;
+    padding: 4%;
+}
+
+.juegosDestacado h2 {
+    text-align: center;
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.enlace--m h3{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.juegos__Destacado {
+    width: 100%;
+    height: 37em;
+}
+
+.ubisoft {
+    box-sizing: border-box;
+    display: flex;
+    gap: 120px;
+    width: 100%;
+    background-color: rgb(4, 4, 39);
+}
+
+.ubisoft::before{
+    content: "";
+    color: white;
+    position: absolute;
+    left: 48%;
+    border-top: 30px solid white;
+    border-left: 20px solid rgb(4, 4, 39);
+}
+
+.ubisoft::before{
+    content: "";
+    color: white;
+    position: absolute;
+    left: 48%;
+    border-top: 30px solid white;
+    border-right: 20px solid rgb(4, 4, 39);
+}
+
+.img__ubisoft {
+    position: relative;
+    left: 5%;
+    width: 35%;
+}
+
+.section__ubisoft {
+    padding-top: 2%;
+    width: 35em;   
+}
+
+.section__ubisoft h2, .section__ubisoft h3, .section__ubisoft button {
+    line-height: 1.8em;
+    color: white;
+}
+
+.section__ubisoft h2 {
+    font-size: 3em;
+}
+
+.section__ubisoft h3 {
+    font-size: 2em;
+}
+
+.section__ubisoft button {
+    background-color: rgb(11, 142, 248);
+    width: 35%;
+    padding: 1%;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+
+.section__ubisoft button:hover{
+    background-color: white;
+    color: rgb(11, 142, 248);
+    border: 1px solid rgb(11, 142, 248);
+    transition: 0.5s;
+}
+
+.canales {
+    display: flex;
+    padding-top: 1%;
+    width: 100%;
+    height: 3em;
+    gap: 20px;
+    background-color: black;
+}
+
+.otros__canales p {
+    color: gray;
+    font-size: 1em;
+    margin-left: 3em;
+    padding-top: 10px;
+
+}
+
+.imagenes__canales img {
+    padding-left: 20px;
+}
+
+.imagenes__canales img:hover {
+    width: 5.5%;
+   }
+   
+
+.otros__canales {
+    flex-basis: 39%;
+}
+
+.footer__ubisoft {
+    box-sizing: border-box;
+    background-color: rgb(29, 30, 34);
+}
+
+.footer__flex {
+    padding-top: 20px;
+    display: flex;
+    
+}
+
+.img__footer {
+    margin-left: 3em;
+    flex-basis: 80%;
+}
+
+.lenguaje {
+ flex-basis: 20%;
+}
+
+.lenguaje img, .select__ubisoft{
+    margin-left: 1em;
+}
+
+.lenguaje img {
+    position: relative;
+    top: 1em;
+}
+
+.select__ubisoft {
+    position: relative;
+    top: 0.3em;
+}
+
+.select__ubisoft {
+    background-color: rgb(29, 30, 34);
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.footerFlex__two, .dos {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.tres {
+    display: flex;
+    flex-flow: column;
+}
+
+.uno, .tres {
+    flex-basis: 25%;
+}
+.dos {
+    position: relative;
+    top: -2.5em;
+    left: 2.5em;
+    flex-basis: 50%;
+    gap: 4em;
+}
+
+.list {
+    list-style: none;
+    line-height: 3em;
+}
+
+.listass {
+    text-decoration: none;
+    color: white;
+}
+
+.listass--b {
+    color: grey;
+}
+
+.ultimo {
+    color: white;
+    width: 23em;
+    padding-top: 3em;
+    font-size: 0.8em;
+}
+
+.ul__tresUno img {
+    padding-top: 1.6em;
+   padding-left: 13em;
+}
+
+.listass:hover {
+    border-bottom: 2px solid rgb(47, 46, 46);
+}
+
